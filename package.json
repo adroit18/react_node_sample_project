@@ -1,0 +1,35 @@
+{
+  "name": "learn",
+  "version": "1.0.0",
+  "description": "this is for my sole learning purpose",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --mode development --open --hot",
+    "build": "webpack --mode production",
+    "test": "start learn"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adroit18/upgrade.git"
+  },
+  "author": "deepak uniyal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adroit18/upgrade/issues"
+  },
+  "homepage": "https://github.com/adroit18/upgrade#readme",
+  "dependencies": {
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "html-webpack-plugin": "^3.2.0",
+    "webpack": "^4.16.3",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.5"
+  }
+}
